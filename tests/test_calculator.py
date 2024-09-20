@@ -5,6 +5,7 @@ def test_add():
     assert calculator.add(2, 3) == 5
     assert calculator.add(0, 0) == 0
     assert calculator.add(5, -3) == 2
+    assert calculator.add(10, 1) != 12
 
 def test_subtract():
     assert calculator.subtract(5, 3) == 2
